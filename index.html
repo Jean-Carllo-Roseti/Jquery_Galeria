@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria De Fotos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagens</h2>
+        <input type="url"  id="endereçoImagemNova" required placeholder="URL da imagem" />
+        <button type="submit">Adicionar +</button>
+        <button type="reset" id="botaoCancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="images/foto1.jpg" alt="pintura de um gato" />
+            <div class="overlay-imagem-link">
+                <a href="images/foto1.jpg"  title="Ver imagem tamanho real" target="_black">
+                    Ver imagem tamanho real
+                </a>
+            </div class="overlay-imagem-link">
+        </li>
+        <li>
+            <img src="images/foto2.jpg" alt="imagem de um flamingo" />
+            <div class="overlay-imagem-link">
+                <a href="images/foto2.jpg"  title="Ver imagem tamanho real" target="_black">
+                    Ver imagem tamanho real
+                </a>
+            </div class="overlay-imagem-link">
+        </li>
+        <li>
+            <img src="images/foto3.jpg" alt="iamgem de dois cachorrinhos" />
+            <div class="overlay-imagem-link">
+                <a href="images/foto3.jpg"  title="Ver imagem tamanho real" target="_black">
+                    Ver imagem tamanho real
+                </a>
+            </div class="overlay-imagem-link">
+        </li>
+    </ul>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
